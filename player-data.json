@@ -1,0 +1,197 @@
+
+{
+  "available-campaign-levels": 
+  {
+    "demo": 
+    {
+      "level-01": "hard"
+    },
+    "npe": 
+    {
+      "level-01": "hard"
+    },
+    "tight-spot": 
+    {
+      "level-01": "hard"
+    },
+    "transport-belt-madness": 
+    {
+      "level-01": "hard"
+    }
+  },
+  "tutorials": 
+  {
+    "stack-transfers": 
+    {
+      "status": "not-suggested-yet",
+      "count": 4
+    },
+    "logistic-system-basic": 
+    {
+      "status": "not-suggested-yet"
+    },
+    "construction-robots": 
+    {
+      "status": "not-suggested-yet"
+    },
+    "trains-basics": 
+    {
+      "status": "suggested"
+    },
+    "trains-ghost-rail-planner": 
+    {
+      "status": "suggested"
+    },
+    "trains-stations": 
+    {
+      "status": "suggested"
+    },
+    "trains-basic-signals": 
+    {
+      "status": "suggested"
+    },
+    "trains-advanced-signals": 
+    {
+      "status": "suggested"
+    }
+  },
+  "latest-multiplayer-connections": 
+  [
+    
+    {
+      "address": "10.48.78.2"
+    },
+    
+    {
+      "address": "182.232.86.176:34197"
+    },
+    
+    {
+      "address": ""
+    }
+  ],
+  "service-username": "beammagic",
+  "service-token": "fc041679e38ab05ab24080de4a069a",
+  "last-used-filters": 
+  {
+    "players": "any",
+    "password": "any",
+    "mods": "any",
+    "friends": "any"
+  },
+  "column-ordering": 
+  {
+    "public-index": "name",
+    "public-ascending": true,
+    "lan-index": "name",
+    "lan-ascending": true
+  },
+  "shortcut-bar": 
+  [
+    
+    {
+      "name": "deadlock-industry-generator-manager",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "toggle-alt-mode",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "todo-add-task-shortcut",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "todo-toggle-ui-shortcut",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "undo",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "copy",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "cut",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "paste",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "import-string",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "give-blueprint",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "give-blueprint-book",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "give-deconstruction-planner",
+      "docked": true,
+      "enabled": true
+    },
+    
+    {
+      "name": "give-upgrade-planner",
+      "docked": false,
+      "enabled": true
+    },
+    
+    {
+      "name": "toggle-personal-roboport",
+      "docked": false,
+      "enabled": true
+    },
+    
+    {
+      "name": "toggle-equipment-movement-bonus",
+      "docked": false,
+      "enabled": true
+    }
+  ],
+  "editor-lua-snippets": 
+  [
+    
+    {
+      "name": "Example (Turn trees into biters)",
+      "code": "local surface = game.player.surface\nlocal entities = surface.find_entities_filtered{area = area, type = 'tree'}\nfor k, tree in pairs(entities) do\n  local position = tree.position\n  tree.destroy()\n  surface.create_entity{name = 'small-biter', position = position}\nend"
+    }
+  ],
+  "last-played-version": 
+  {
+    "game_version": "0.17.74",
+    "build_version": 47523,
+    "build_mode": "steam",
+    "platform": "win64"
+  }
+}
